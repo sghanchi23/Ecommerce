@@ -1,0 +1,125 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  
+  <modelVersion>4.0.0</modelVersion>
+
+  <!-- Basic project information -->
+  <groupId>Academy</groupId> <!-- Unique identifier for the group or organization -->
+  <artifactId>E2EProject</artifactId> <!-- Unique identifier for this project -->
+  <version>0.0.1-SNAPSHOT</version> <!-- Versioning of the project -->
+  <packaging>jar</packaging> <!-- Packaging type (could be jar, war, etc.) -->
+
+  <name>E2EProject</name> <!-- Human-readable name for the project -->
+  <url>http://maven.apache.org</url> <!-- URL for project information -->
+
+  <properties>
+    <!-- Java compiler version properties -->
+    <maven.compiler.source>16</maven.compiler.source> <!-- Source version -->
+    <maven.compiler.target>16</maven.compiler.target> <!-- Target version -->
+  </properties>
+
+  <build>
+    <resources>
+      <resource>
+        <directory>src/main/java/resources</directory> <!-- Directory for resource files -->
+        <filtering>true</filtering> <!-- Enable filtering of resources -->
+      </resource>
+    </resources>
+
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId> <!-- Plugin for running tests -->
+        <version>3.5.0</version>
+        <configuration>
+          <suiteXmlFiles>
+            <!-- Specify the XML file containing TestNG suite definitions -->
+            <suiteXmlFile>testngcucmber.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+      </plugin>
+    </plugins>	
+  </build>
+
+  <dependencies>
+    <!-- Selenium dependency for browser automation -->
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-java</artifactId>
+      <version>4.20.0</version> <!-- Latest version for Selenium -->
+    </dependency>
+
+    <!-- TestNG dependency for testing framework -->
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>7.7.1</version> <!-- TestNG version -->
+    </dependency>
+
+    <!-- SLF4J API for logging abstraction -->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.30</version> <!-- SLF4J API version -->
+    </dependency>
+
+    <!-- Simple SLF4J implementation -->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-simple</artifactId>
+      <version>1.7.30</version> <!-- SLF4J simple logger version -->
+    </dependency>
+
+    <!-- JUnit dependency for unit testing (if used) -->
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version> <!-- JUnit version -->
+      <scope>test</scope> <!-- Test scope indicates it's for testing only -->
+    </dependency>
+
+    <!-- Log4j API for advanced logging capabilities -->
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-api</artifactId>
+      <version>2.3.2</version> <!-- Log4j API version -->
+    </dependency>
+
+    <!-- Log4j core implementation -->
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-core</artifactId>
+      <version>2.3.2</version> <!-- Log4j core version -->
+    </dependency>
+    
+    <!-- Commons IO for utility classes for I/O operations -->
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>2.15.1</version> <!-- Commons IO version -->
+    </dependency>
+
+    <!-- Cucumber Java library for behavior-driven development -->
+    <dependency>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-java</artifactId>
+      <version>7.18.1</version> <!-- Cucumber Java version -->
+    </dependency>
+
+    <!-- Cucumber JUnit integration for running Cucumber tests with JUnit -->
+    <dependency>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-junit</artifactId>
+      <version>7.18.0</version>
+      <scope>test</scope> <!-- Test scope for test-specific dependency -->
+    </dependency>
+    
+    <!-- Cucumber TestNG integration for running Cucumber tests with TestNG -->
+    <dependency>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-testng</artifactId>
+      <version>7.15.0</version> <!-- Cucumber TestNG version -->
+    </dependency>
+  </dependencies>
+</project>

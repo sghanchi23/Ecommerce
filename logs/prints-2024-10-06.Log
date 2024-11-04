@@ -1,0 +1,8 @@
+10:45:48.767 [main] INFO  resources.Base - Driver is initialize 
+10:45:59.972 [main] INFO  resources.Base - Website is open
+10:46:15.665 [main] INFO  resources.Base - successfully validated text message
+10:50:41.773 [main] INFO  resources.Base - Driver is initialize 
+10:50:51.765 [main] INFO  resources.Base - Website is open
+10:50:59.333 [main] INFO  resources.Base - successfully validated text message
+11:05:02.532 [main] INFO  resources.Base - Driver is initialize 
+11:05:14.717 [main] INFO  resources.Base - Website is open

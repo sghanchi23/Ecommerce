@@ -1,0 +1,7 @@
+11:05:19.986 [main] INFO  resources.Base - successfully validated text message
+11:05:54.212 [main] INFO  resources.Base - Driver is initialize 
+11:06:04.188 [main] INFO  resources.Base - Website is open
+11:06:11.611 [main] INFO  resources.Base - successfully validated text message
+15:18:45.822 [TestNG-tests-4] INFO  resources.Base - Driver is initialize 
+15:18:45.822 [TestNG-tests-3] INFO  resources.Base - Driver is initialize 
+15:19:01.591 [TestNG-tests-3] INFO  resources.Base - Website is open

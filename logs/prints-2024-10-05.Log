@@ -1,0 +1,7 @@
+21:41:39.945 [TestNG-tests-3] INFO  resources.Base - successfully validated text message
+21:41:43.765 [TestNG-tests-4] INFO  resources.Base - successfully Login
+21:43:53.935 [TestNG-tests-4] INFO  resources.Base - Driver is initialize 
+21:43:53.935 [TestNG-tests-3] INFO  resources.Base - Driver is initialize 
+21:44:11.809 [TestNG-tests-3] INFO  resources.Base - Website is open
+21:44:20.605 [TestNG-tests-4] INFO  resources.Base - Website is open
+21:44:32.543 [TestNG-tests-3] INFO  resources.Base - successfully validated text message

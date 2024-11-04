@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!-- TestNG suite configuration -->
+<suite name="Suite" parallel="tests"> <!-- Suite name and parallel execution setting -->
+
+  <!-- Test group for validating user login -->
+  <test name="validating user login"> <!-- Descriptive name for the test group -->
+  
+  	<classes>
+  		<class name="CucmberOption.TestRunner"/> <!-- The class containing the Cucumber TestNG integration runner -->
+  	</classes>
+  </test> <!-- End of validating user login test group -->
+
+</suite> <!-- End of TestNG suite -->

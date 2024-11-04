@@ -1,0 +1,8 @@
+19:04:20.617 [TestNG-tests-4] INFO  resources.Base - Website is open
+19:04:21.431 [TestNG-tests-3] INFO  resources.Base - Website is open
+19:04:38.155 [TestNG-tests-4] INFO  resources.Base - successfully Login
+19:07:44.145 [TestNG-tests-3] INFO  resources.Base - Driver is initialize 
+19:07:44.145 [TestNG-tests-4] INFO  resources.Base - Driver is initialize 
+19:08:04.597 [TestNG-tests-3] INFO  resources.Base - Website is open
+19:08:10.521 [TestNG-tests-4] INFO  resources.Base - Website is open
+19:08:30.250 [TestNG-tests-4] INFO  resources.Base - successfully Login
