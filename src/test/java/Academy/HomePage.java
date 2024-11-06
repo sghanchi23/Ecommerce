@@ -71,8 +71,8 @@ public class HomePage extends Base
         Object data[][] = new Object[1][2];
         
         // 0th row: Test data with email and password
-        data[0][0] = "AArti@gmail.com";
-        data[0][1] = "Abc345j";
+        data[0][0] = "Email";
+        data[0][1] = "Pass";
         
         // Additional data sets can be uncommented and added as needed
         // data[1][0] = "Email";
