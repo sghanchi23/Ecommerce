@@ -35,7 +35,7 @@
         <configuration>
           <suiteXmlFiles>
             <!-- Specify the XML file containing TestNG suite definitions -->
-            <suiteXmlFile>testngcucmber.xml</suiteXmlFile>
+            <suiteXmlFile>testng.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
